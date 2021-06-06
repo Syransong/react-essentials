@@ -7,3 +7,5 @@ test("Selecting checkbox", () => {
   fireEvent.click(checkbox);
   expect(checkbox.checked).toEqual(true);
 });
+
+// The render component from the React Testing Library allows you to assert whether specific words, phrases or html tags were rendered.
